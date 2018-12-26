@@ -1,0 +1,3 @@
+// "hexo-generator-index-multi-lang": "^0.1.0",
+// "hexo-generator-multilingual-category": "^0.3.2",
+// "hexo-generator-multilingual-index": "^0.3.1",
