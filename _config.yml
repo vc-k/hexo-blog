@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: veli
-subtitle: Test
-description: Kamil
-keywords: R
+title: velicankupeli.com
+subtitle: 
+description: 
+keywords: 
 author: Veli
 language: tr
 lang: tr
@@ -14,7 +14,7 @@ timezone: Europe/Istanbul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com/
+url: http://velicankupeli.com/
 root: /
 permalink: :year-:month-:day/:title/
 #permalink_defaults:
