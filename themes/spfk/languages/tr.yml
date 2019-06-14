@@ -1,0 +1,81 @@
+lang: tr
+
+title:
+  archive: Arşiv
+  category: Kategori
+  tag: Etiket
+
+menu:
+  menu1:
+    Home: /Home
+    English: /en
+  menu: Menü
+  home: Ana Sayfa
+  archives: Arşiv
+  categories: Kategoriler
+  tags: Etiketler
+  about: Hakkında
+  search: Arama
+  link : Bağlantılar
+
+sidebar:
+  overview: Genel
+  toc: İçindekiler
+  tocShow: Göster
+  tocHide: Gizle
+
+post:
+  posted: Posted on
+  in: In
+  read_more: Daha fazla
+  untitled: Adsız
+  toc_empty: İçindekiler yok
+  share: Paylaş
+  title: Başlık
+  author: Yazar
+  release: Yayın Tarihi
+  update: Son Güncelleme
+  link: Bağlantı
+  copytext: Kopyalamak için tıklayınız
+  agreement: Lisans
+  excerpt: true
+  nav:
+    home: Ana
+    prev: Önceki
+    next: Sonraki
+    bars: Bars
+    article: Makaleler
+
+page:
+  totally: Bütün
+  tags: etiketler
+
+footer:
+  powered: "Powered by %s"
+  theme: Theme
+
+counter:
+  tag_cloud:
+    zero: No tags
+    one: 1 tag in total
+    other: "%d tags in total"
+
+  categories:
+    zero: No categories
+    one: 1 category in total
+    other: "%d categories in total"
+
+  archive_posts:
+    zero: Post yok.
+    one: 1 post var.
+    other: "%d post var."
+
+state:
+  posts: posts
+  pages: sayfalar
+  tags: etiketler
+  categories: kategoriler
+
+label:
+  hide: Etiketleri Gizle
+  show: Etiketleri Göster

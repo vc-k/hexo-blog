@@ -1,0 +1,24 @@
+<% if (is_archive() || is_tag() || is_category()) { %>
+    <input type="button" id="label" class="hide-labels" value="<%= __('label.hide') %>"  title="">
+    <!--button id="label" class="hide-labels" value="<%= __('label.hide') %>" title="">--><
+    <script src="js/query-1.9.1.min.js">
+    </script>
+    <script>
+        var valueHide = "<%= __('label.hide') %>";
+        var valueShow = "<%= __('label.show') %>";
+        var toggle = false
+        $(document).ready(function() {
+            $("input").click(function() {
+                $(".article-info").toggle(200);
+                toggle = !toggle
+                if (!toggle) {
+                    $("#label").attr("value", valueHide);
+                }
+                else {
+                    $("#label").attr("value", valueShow);
+                }
+            });
+        });
+        
+    </script>
+<% } %>

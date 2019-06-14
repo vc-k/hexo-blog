@@ -1,0 +1,46 @@
+<div id="toc" class="toc-article">
+    <strong class="toc-title"><%= __('sidebar.toc') %></strong>
+    <%- toc(post.content) %>
+</div>
+<input type="button" id="tocButton" value="<%= __('sidebar.tocHide') %>"  title="">
+
+<%- js('js/jquery-1.9.1.min') %>
+<script>
+    var valueHide = "<%= __('sidebar.tocHide') %>";
+    var valueShow = "<%= __('sidebar.tocShow') %>";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
+
+<% if (theme.toc_nowrap) { %>
+    <style>
+        .toc {
+            white-space: nowrap;
+            overflow-x: hidden;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).attr('href');
+                $(this).attr("title", title);
+            });
+        })
+    </script>
+<% } %>
