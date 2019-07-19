@@ -37,16 +37,36 @@ category_dir: categories
 code_dir: downloads/code
 #i18n_dir: :lang
 skip_render:
-
+  - assets/theme/**
 
 
 # Writing
-#new_post_name: :title.md # File name of new posts
+# new_post_name: :title.md # File name of new posts
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'twilight'
-  line_number: true    # default false
+  line_number: false    # default false
   # custom_css: 'path/to/your/custom.css'     # optional
+
+# prism_plus:
+#   # Set to false to disable the plugin
+#   enable: true
+#   # Custom Prism path
+#   vendors:
+#       base_url: ''
+#       prism:
+#           - https://raw.githubusercontent.com/Aetf/Aetf.github.io/hexo/source/assets/theme/prism.js
+#       prism_css:
+#           - https://raw.githubusercontent.com/Aetf/Aetf.github.io/hexo/source/assets/theme/prism.css
+#   # Default language if not specified inline in code blocks
+#   default_lang: clike
+#   # Default preset if no preset is specified inline
+#   default_preset:
+#       lineno: true
+#       classes:
+#       styles:
+#   # All available presets
+#   presets:
 
 default_layout: post
 titlecase: false # Transform title into titlecase

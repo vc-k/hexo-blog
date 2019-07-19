@@ -38,7 +38,7 @@ fn main() {
 
 Yukarıdaki kodda görüldüğü üzere yarattığımız ```foo``` değerini bir alt satırda yarattığımız ```_bar``` değişkenine atıyoruz. Gerçekleştirdiğimiz atama ```foo``` değerinin sahipliğinin ```_bar``` değişkenine aktarır. Bu nedenle son satırda ```foo```'nun değerini yazdırmayı denediğimizde aşağıdaki hata ile karşılaşırız.
 
-```bash
+```none
 error[E0382]: use of moved value: `foo`
  --> src/main.rs:5:20
   |
@@ -76,7 +76,7 @@ fn get_str_cap(s: &String) -> usize{
 }
 ```
 
-```bash
+```none
 5, 5
 ```
 
@@ -105,7 +105,7 @@ fn add_exclamation(s: &mut String) -> &mut String{
 }
 ```
 
-```bash
+```none
 error[E0499]: cannot borrow `foo` as mutable more than once at a time
  --> src/main.rs:4:34
   |
@@ -137,7 +137,7 @@ fn add_world(s: &mut String) -> &mut String{
     return s
 }
 ```
-```bash
+```none
 bar: Hello world
 ```
 
@@ -167,7 +167,7 @@ fn add_exclamation(s: &mut String) -> &mut String{
     return s
 }
 ```
-```bash
+```none
 x: Hello world!
 ```
 
