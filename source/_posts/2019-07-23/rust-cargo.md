@@ -4,7 +4,7 @@ date: 2019-07-23 21:38:24
 tags: [rust, cargo]
 ---
 
-Cargo denen komut satırı uygulaması (), hem bir paket yönetici hem de derleme aracıdır. Eğer bu dilde ilerlemek istiyorsanız, ```rustc``` yerine bu aracı hemen kullanmaya başlamalısınız. Bu yazıda derleme konusuna değineceğim ancak cargo ile proje gereksinimlerinin de otomatik olarak kurulduğunu söylemem gerek.
+Cargo denen komut satırı arayüzü (command line interface), hem bir paket yönetici hem de derleme aracıdır. Eğer bu dilde ilerlemek istiyorsanız, ```rustc``` yerine bu aracı hemen kullanmaya başlamalısınız. Bu yazıda derleme konusuna değineceğim ancak cargo ile proje gereksinimlerinin de otomatik olarak kurulduğunu söylemem gerek.
 
 <!-- more -->
 
