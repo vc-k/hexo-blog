@@ -60,7 +60,7 @@ Diğer yaratılan şeyler ise ```Cargo.toml``` dosyası ve ```src``` klasörü i
 [package]
 name = "projem"
 version = "0.1.0"
-authors = ["vc-k <velicankupeli@gmail.com>"]
+authors = ["vc-k"]
 edition = "2018"
 
 [dependencies]
