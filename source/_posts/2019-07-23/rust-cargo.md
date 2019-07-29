@@ -124,7 +124,8 @@ Hello, world!
 
 Bu kadar uğraşa ilk defa görenler için girdim oysa ki derleme işini yapan ve ardından uygulamayı koşturan bir komutumuz daha var.
 
-```bash➜  projem git:(master) ✗ cargo run
+```bash
+➜  projem git:(master) ✗ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.15s
      Running `target/debug/projem`
 Hello, world!
