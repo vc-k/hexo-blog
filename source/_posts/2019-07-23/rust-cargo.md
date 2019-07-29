@@ -140,4 +140,4 @@ Cevap basit, projeniz karmaşıklığı arttıkça projenizin derlenme süresi c
 
 Sonuç olarak ```cargo``` sizin için yaratılmış bir nimet. Kullanmazsanız yazık olur. Alışınca ki alışması çok kolay, çok sevceceksiniz.
 
-Aklınıza takılan sorular için mail atabilirsiniz. Çok yoğun olmadıkça 24 saat içerisinde iyi kötü bir cevap yazarım.
+Aklınıza takılan sorular için yorum yazabilirsiniz. Çok yoğun olmadıkça 24 saat içerisinde iyi kötü bir cevap yazarım.
